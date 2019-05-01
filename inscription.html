@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html>
+<head>  
+<title>Inscription</title>   
+</head> 
+<body>
+ <h1>Inscription</h1>   
+ <form>    
+ <label>Nom et Prénom:</label>    
+ <input type="text"> <br> <br>
+
+ <label>Adresse email:</label>    
+ <input type="text" id="Adresse"> <br> <br> 
+
+ <label>Mot De Passe:</label>    
+ <input name="mot_de_passe" type="password" id="mot_de_passe" size="20" /> <br> <br>
+ 
+</form> 
+<h2>Informations de paiement sécurisées</h2>   
+ <form>    
+  <label>Type de carte de paiement</label> 
+ <select name="Type de carte de paimenet">
+  <option value="Selectionner votre type de carte">selectionner votre type de carte</option>
+  <option value="Visa">Visa</option>
+  <option value="MasterCard">MasterCard</option>
+  <option value="American Express">AmericanExpress</option>
+  <option value="PayPal">PayPal</option>
+  </select> <br> <br> 
+ <label>Numéro de la carte</label>    
+ <input type="text" id="Numero de la carte"> <br> <br>    
+ <label>Nom affiché dans la carte :</label>    
+ <input type="text" id="nom"> <br> <br> 
+ <label>Date d'expiration de la carte':</label>    
+ <input type="Date" id="expiration"> <br> <br> 
+ <label>Code de securité:</label>    
+ <input name="mot_de_passe" type="password" id="mot_de_passe" size="3" /> <br> <br>
+
+
+
+ <input type="button" value="Valider" onclick="validation()"> <br> 
+</form> 
+<div id="errordiv">              
+</div>            
+</body> 
+</html>   

@@ -2,18 +2,73 @@
 <html>
 <head>  
 <title>Admin</title>   
+
+<link rel="stylesheet" href="form.css">
+<link rel="stylesheet" href="page.css">
+<link rel="stylesheet" href="vignettes.css">
+
 </head> 
 <body>
- <h1>Admin connexion</h1>   
- <form>    
- <label>pseudo:</label>    
- <input type="text"> <br> <br>
 
- <label>Mot De Passe:</label>    
- <input name="mot_de_passe" type="password" id="mot_de_passe" size="20" /> <br> <br>
+<div> 
+	<h1> Menu </h1>
 
- 
- <input type="button" value="Valider" onclick="validation()"> <br> 
+</div>
+
+<div class="vignetteListe">
+<!-- 	<script>
+    var div = document.getElementById('myDiv');
+
+    alert(div);
+</script> -->
+	<div class="vignette">
+		<h2>Film intéressant</h2>
+		<div name="description">
+			
+			
+
+		</div>
+	</div>
+	<div class="vignette">
+		<h2>Film intéressant</h2>
+	</div>
+	<div class="vignette">
+		<h2>Film intéressant</h2>
+	</div>
+	<div class="vignette">
+		<h2>Film intéressant</h2>
+	</div>
+	<div class="vignette">
+		<h2>Film intéressant</h2>
+	</div>
+	<div class="vignette">
+		<h2>Film intéressant</h2>
+	</div>
+	<div class="vignette">
+		<h2>Film intéressant</h2>
+	</div>
+	<div class="vignette">
+		<h2>Film intéressant</h2>
+	</div>
+</div>
+<form>
+	<label>pseudo:</label>    
+ 	<input type="text">
+	<label>First Name</label>
+	<input type="text" id="fname" name="firstname" placeholder="Your name.." />
+	<label>Last Name</label>
+	<input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+
+	<label>Email</label>
+	<input type="email" id="email" name="email" placeholder="Your email" />
+	<label>Password</label>
+ 	<input name="mot_de_passe" type="password" id="mot_de_passe" size="20" />
+
+	<label>Subject</label>
+	<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+ 	<input type="submit" value="Valider" onclick="validation()"> <br> 
+</form>
+
 
 <div id="errordiv">              
 </div>            

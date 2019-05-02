@@ -21,8 +21,15 @@
  <label>Telephone:</label>    
  <input type="text" name="Telephone"> <br> <br>
 
- <label>Mot De Passe:</label>    
- <input name="mot_de_passe" type="password" id="mot_de_passe" size="20" /> <br> <br>
+ <label>Mot DePasse:</label>    
+ Pour des raisons de sécurité, un mot de passe aléatoire vous sera attribué :) <br> <br>
+
+ <label>Photo de profil :</label>    
+ <input name="PhotoProfil" type="text"> <br> <br>
+
+ <label>Photo de couverture :</label>    
+ <input name="PhotoCouverture" type="text"> <br> <br>
+
 
 <h2>Informations de paiement sécurisées</h2>      
   <label>Type de carte de paiement</label> 
